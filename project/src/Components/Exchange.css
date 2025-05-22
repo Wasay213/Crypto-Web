@@ -1,0 +1,158 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .exchange {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .exchange-hero {
+    padding: 50px;
+    background: linear-gradient(to right, #28a745, #20c997);
+    color: #fff;
+  }
+  
+  .exchange-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .exchange-hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .exchange-hero .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exchange-hero .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Market Trends Section */
+  .market-trends {
+    padding: 50px;
+    background: #f8f9fa;
+  }
+  
+  .market-trends h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .market-table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .table-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    background-color: #e9ecef;
+  }
+  
+  .table-row div {
+    padding: 10px;
+  }
+  
+  .positive {
+    color: #28a745;
+  }
+  
+  .negative {
+    color: #dc3545;
+  }
+  
+  /* Trading Tools Section */
+  .trading-tools {
+    padding: 50px;
+  }
+  
+  .trading-tools h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .tools {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .tool {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tool i {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .tool h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .tool p {
+    font-size: 1rem;
+  }
+  
+  /* Call to Action Section */
+  .exchange-cta {
+    padding: 50px;
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .exchange-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .exchange-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .exchange-cta .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exchange-cta .cta-button:hover {
+    background-color: #218838;
+  }
+  

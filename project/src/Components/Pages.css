@@ -1,0 +1,158 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .pages {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .pages-hero {
+    padding: 50px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+  }
+  
+  .pages-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .pages-hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Highlights Section */
+  .pages-highlights {
+    padding: 50px;
+    background: #f8f9fa;
+  }
+  
+  .pages-highlights h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .highlights {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .highlight-card {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight-card i {
+    font-size: 2rem;
+    color: #6a11cb;
+    margin-bottom: 15px;
+  }
+  
+  .highlight-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .highlight-card .cta-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .highlight-card .cta-button:hover {
+    background-color: #0a58ca;
+  }
+  
+  /* Features Section */
+  .pages-features {
+    padding: 50px;
+  }
+  
+  .pages-features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+  }
+  
+  /* Call to Action Section */
+  .pages-cta {
+    padding: 50px;
+    background: #2575fc;
+    color: #fff;
+  }
+  
+  .pages-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .pages-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .pages-cta .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6a11cb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pages-cta .cta-button:hover {
+    background-color: #4e0dbc;
+  }
+  
